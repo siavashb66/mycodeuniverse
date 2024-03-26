@@ -33,7 +33,7 @@ $$
 z^2 = x^2 + y^2 
 $$
 ```{code-cell} python3
-print(2+2)
+print(2+3)
 ```
 ```{code-cell} ipython3
 note = "Python syntax highlighting"
