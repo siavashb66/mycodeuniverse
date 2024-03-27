@@ -1,0 +1,719 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Beyond Chance &#8212; My Code Universe</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'beyond';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="My Code Universe" href="intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My Code Universe - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My Code Universe - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    My Code Universe
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Beyond Chance</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/siavashb66/mycodeuniverse" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/siavashb66/mycodeuniverse/issues/new?title=Issue%20on%20page%20%2Fbeyond.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/beyond.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Beyond Chance</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-the-hidden-pattern-in-every-dice-roll">Part 1: The Hidden Pattern in Every Dice Roll</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1-throwing-two-dice-10-times">Example 1: Throwing Two Dice 10 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-2-throwing-two-dice-500-times">Example 2: Throwing Two Dice 500 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-3-throwing-two-dice-100000-times">Example 3: Throwing Two Dice 100000 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-4-throwing-three-dice-100000-times">Example 4: Throwing Three Dice 100000 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-5-throwing-four-dice-200000-times">Example 5: Throwing Four Dice 200000 Times</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-from-playful-rolls-to-universal-order">Part 2: From Playful Rolls to Universal Order</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="beyond-chance">
+<h1>Beyond Chance<a class="headerlink" href="#beyond-chance" title="Permalink to this heading">#</a></h1>
+<section id="part-1-the-hidden-pattern-in-every-dice-roll">
+<h2>Part 1: The Hidden Pattern in Every Dice Roll<a class="headerlink" href="#part-1-the-hidden-pattern-in-every-dice-roll" title="Permalink to this heading">#</a></h2>
+<p>Have you ever wondered what happens when you roll two dice? It seems like pure chance, but there’s a fascinating story behind the possible outcomes. Imagine you have a pair of regular six-sided dice, each face with a different number, just waiting to be tossed.</p>
+<p>The key here is fairness. Since all the faces are assumed to have an equal chance of landing face-up, things get interesting when you consider both dice together. Each die has six possibilities, and when you roll them together, those possibilities multiply. That means there are 6 x 6 = 36 total possible outcomes, like getting a 3 on one die and a 4 on the other.</p>
+<p>But not all sums of those rolls are equally likely. Sums like 2 (achieved only with a 1 on each die) and 12 (achieved only with a 6 on each die) are less probable because there’s only one way to get them. On the other hand, sums like 7 (achieved with several combinations like 1 and 6, or 3 and 4) are more likely.</p>
+<p>Now, this wouldn’t be much of a story without some data, right? Imagine how exciting things would get if we plot these probabilities on a graph. Here, we can leverage the power of Python and its amazing libraries to simulate throwing dice as many times as we want and visualize the outcome.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">simulate_dice_rolls</span><span class="p">(</span><span class="n">attempts</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">))</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">attempts</span><span class="p">)]</span>
+
+<span class="n">sums_possibilities</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities</span><span class="p">,</span> <span class="n">sums_distributions</span><span class="p">):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">sums_possibilities</span><span class="p">,</span> <span class="n">sums_distributions</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Sum of Dice&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Probability&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Probability Distribution of Sums when Rolling Dice&#39;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="example-1-throwing-two-dice-10-times">
+<h3>Example 1: Throwing Two Dice 10 Times<a class="headerlink" href="#example-1-throwing-two-dice-10-times" title="Permalink to this heading">#</a></h3>
+<p>Let’s kick off with a modest attempt: rolling two dice just 10 times and visualizing the distribution of their sums.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 1</span>
+<span class="n">attempts_1</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">sums_1</span> <span class="o">=</span> <span class="n">simulate_dice_rolls</span><span class="p">(</span><span class="n">attempts_1</span><span class="p">)</span>
+<span class="n">sums_counts_1</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sums_1</span><span class="p">)</span>
+<span class="n">sums_distributions_1</span> <span class="o">=</span> <span class="p">[</span><span class="n">sums_counts_1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">attempts_1</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sums_possibilities</span><span class="p">]</span>
+
+<span class="c1"># Plot distribution for Example 1</span>
+<span class="n">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities</span><span class="p">,</span> <span class="n">sums_distributions_1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/a4cb4741d1d8c30b0e533dc24c0a4e148a6660bd100a939e16ac14ecf6e7ac15.png" src="_images/a4cb4741d1d8c30b0e533dc24c0a4e148a6660bd100a939e16ac14ecf6e7ac15.png" />
+</div>
+</div>
+<p>Now If you roll the dice only a few times, like 10 as we just did, the resulting distribution wouldn’t be as smooth as you might expect. It might not reveal any clear pattern due to the randomness of a small sample. This reflects the bumpy landscape of chance with a small number of trials.</p>
+</section>
+<section id="example-2-throwing-two-dice-500-times">
+<h3>Example 2: Throwing Two Dice 500 Times<a class="headerlink" href="#example-2-throwing-two-dice-500-times" title="Permalink to this heading">#</a></h3>
+<p>Now let’s take it up a notch and throw them 500 times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 2</span>
+<span class="n">attempts_2</span> <span class="o">=</span> <span class="mi">500</span>
+<span class="n">sums_2</span> <span class="o">=</span> <span class="n">simulate_dice_rolls</span><span class="p">(</span><span class="n">attempts_2</span><span class="p">)</span>
+
+<span class="n">sums_counts_2</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sums_2</span><span class="p">)</span>
+<span class="n">sums_distributions_2</span> <span class="o">=</span> <span class="p">[</span><span class="n">sums_counts_2</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">attempts_2</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sums_possibilities</span><span class="p">]</span>
+
+<span class="c1"># Plot distribution for Example 2</span>
+<span class="n">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities</span><span class="p">,</span> <span class="n">sums_distributions_2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/dab577e0a17eadae84217137f10e0fd48bf13fa8f05894eaf0b4d7b4977bc105.png" src="_images/dab577e0a17eadae84217137f10e0fd48bf13fa8f05894eaf0b4d7b4977bc105.png" />
+</div>
+</div>
+<p>With each roll, the landscape of probability begins to morph, smoothing out its rough edges and revealing its underlying structure.</p>
+</section>
+<section id="example-3-throwing-two-dice-100000-times">
+<h3>Example 3: Throwing Two Dice 100000 Times<a class="headerlink" href="#example-3-throwing-two-dice-100000-times" title="Permalink to this heading">#</a></h3>
+<p>Now, let’s push the boundaries further and throw the dice 100,000 times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 3</span>
+<span class="n">attempts_3</span> <span class="o">=</span> <span class="mi">100000</span>
+<span class="n">sums_3</span> <span class="o">=</span> <span class="n">simulate_dice_rolls</span><span class="p">(</span><span class="n">attempts_3</span><span class="p">)</span>
+
+<span class="n">sums_counts_3</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sums_3</span><span class="p">)</span>
+<span class="n">sums_distributions_3</span> <span class="o">=</span> <span class="p">[</span><span class="n">sums_counts_3</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">attempts_3</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sums_possibilities</span><span class="p">]</span>
+
+<span class="c1"># Plot distribution for Example 3</span>
+<span class="n">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities</span><span class="p">,</span> <span class="n">sums_distributions_3</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/8a76f766071b68cb36fb0802819b48da760d8a4227b19ede04c1f3b898d7b85b.png" src="_images/8a76f766071b68cb36fb0802819b48da760d8a4227b19ede04c1f3b898d7b85b.png" />
+</div>
+</div>
+<p>Behold the Empire State Building of probability! But why stop here? Let’s raise the stakes even further and add more dice to the mix.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Roll the Dice Three Times</span>
+<span class="k">def</span> <span class="nf">simulate_dice_rolls_3times</span><span class="p">(</span><span class="n">attempts</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">attempts</span><span class="p">)]</span>
+
+<span class="n">sums_possibilities_3times</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">19</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-4-throwing-three-dice-100000-times">
+<h3>Example 4: Throwing Three Dice 100000 Times<a class="headerlink" href="#example-4-throwing-three-dice-100000-times" title="Permalink to this heading">#</a></h3>
+<p>Let’s see what happens when we throw three dice 100,000 times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 4</span>
+<span class="n">attempts_4</span> <span class="o">=</span> <span class="mi">100000</span>
+<span class="n">sums_4</span> <span class="o">=</span> <span class="n">simulate_dice_rolls_3times</span><span class="p">(</span><span class="n">attempts_4</span><span class="p">)</span>
+
+<span class="n">sums_counts_4</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sums_4</span><span class="p">)</span>
+<span class="n">sums_distributions_4</span> <span class="o">=</span> <span class="p">[</span><span class="n">sums_counts_4</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">attempts_4</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sums_possibilities_3times</span><span class="p">]</span>
+
+<span class="c1"># Plot distribution for Example 3</span>
+<span class="n">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities_3times</span><span class="p">,</span> <span class="n">sums_distributions_4</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/da02198c78742024f93722cc6f2b17348977239aa0018905025e0ab56630f5c9.png" src="_images/da02198c78742024f93722cc6f2b17348977239aa0018905025e0ab56630f5c9.png" />
+</div>
+</div>
+<p>As we introduce more dice into the equation, the complexity of the probability landscape deepens, offering new insights into the interplay of chance and pattern.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Roll the Dice Four Times</span>
+<span class="k">def</span> <span class="nf">simulate_dice_rolls_4times</span><span class="p">(</span><span class="n">attempts</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">sum</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">)</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">))</span> <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">attempts</span><span class="p">)]</span>
+
+<span class="n">sums_possibilities_4times</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">25</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-5-throwing-four-dice-200000-times">
+<h3>Example 5: Throwing Four Dice 200000 Times<a class="headerlink" href="#example-5-throwing-four-dice-200000-times" title="Permalink to this heading">#</a></h3>
+<p>Let’s explore the realm of probability further by throwing four dice 200,000 times.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example 5</span>
+<span class="n">attempts_5</span> <span class="o">=</span> <span class="mi">200000</span>
+<span class="n">sums_5</span> <span class="o">=</span> <span class="n">simulate_dice_rolls_4times</span><span class="p">(</span><span class="n">attempts_5</span><span class="p">)</span>
+
+<span class="n">sums_counts_5</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sums_5</span><span class="p">)</span>
+<span class="n">sums_distributions_5</span> <span class="o">=</span> <span class="p">[</span><span class="n">sums_counts_5</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">/</span> <span class="n">attempts_5</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">sums_possibilities_4times</span><span class="p">]</span>
+
+<span class="c1"># Plot distribution</span>
+<span class="n">plot_distribution</span><span class="p">(</span><span class="n">sums_possibilities_4times</span><span class="p">,</span> <span class="n">sums_distributions_5</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/e094fda5adc93829da33ca2a357ff737a341cb9d71b580850cb95e4ed6d9e27b.png" src="_images/e094fda5adc93829da33ca2a357ff737a341cb9d71b580850cb95e4ed6d9e27b.png" />
+</div>
+</div>
+<p>The bell curve’s elegant symmetry, peaking centrally and gently sloping towards its edges, offers a profound insight into how randomness coalesces into predictable patterns. It’s a striking demonstration of probability’s influence, showcasing how chance smoothens out over numerous attempts.</p>
+<p>When rolling dice, it’s not just about the outcome at hand. It’s about appreciating the evolving story with each throw—a story where randomness gradually unveils a captivating, foreseeable pattern.</p>
+</section>
+</section>
+<section id="part-2-from-playful-rolls-to-universal-order">
+<h2>Part 2: From Playful Rolls to Universal Order<a class="headerlink" href="#part-2-from-playful-rolls-to-universal-order" title="Permalink to this heading">#</a></h2>
+<p>The bell curve of the dice sum distribution might seem like a simple quirk of rolling cubes. However, this very same shape pops up in a completely different arena: the world of atoms and energy!</p>
+<p>Thermodynamics, the study of heat, work, and temperature, deals with systems containing a vast number of particles like atoms in a gas. Here, physicist Ludwig Boltzmann discovered that the distribution of energy levels in these tiny particles follows a similar bell-shaped curve. This is known as the Boltzmann distribution (for overall energy).</p>
+<div class="admonition-info admonition">
+<p class="admonition-title">info:</p>
+<p>Boltzmann distribution is a probability function used in statistical physics to characterize state of a system of particles, with respect to temperature and energy. The system can exist in several states, however, the chance of being in certain subset of states is higher than other.</p>
+</div>
+<p>Here’s the exciting part: the number of times you roll the dice is analogous to the number of atoms in a system. Just like a single roll might result in an unlikely outcome (like double sixes), a single atom might have an unusual amount of energy. But as the number of dice rolls increases, the randomness smooths out, revealing the underlying probability distribution.</p>
+<figure class="align-default" id="boltzmann-distribution">
+<img alt="_images/distribution.jpg" src="_images/distribution.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">The Maxwell-Boltzmann distribution of a gas at room temperature.<a class="reference external" href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_%28Physical_and_Theoretical_Chemistry%29/Kinetics/03%3A_Rate_Laws/3.01%3A_Gas_Phase_Kinetics/3.1.02%3A_Maxwell-Boltzmann_Distributions">ref</a></span><a class="headerlink" href="#boltzmann-distribution" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>Imagine a giant container of gas with countless atoms bouncing around. While we can’t track the individual movements of each atom like we might with a few billiard balls (Newtonian mechanics shines there!), the sheer number of particles makes it impractical. However, probability comes to the rescue! By studying the overall behavior of the gas, like its temperature and pressure, we can use statistical methods (like the ones that govern dice rolls) to understand the average energy distribution of the atoms within.</p>
+<p>Similarly, in a vast number of atoms (think Avogadro’s number!), the individual fluctuations in energy average out, and the familiar bell curve emerges. This distribution tells us how likely it is for an atom to have a particular energy level, just like the dice roll distribution tells us the likelihood of getting a specific sum.</p>
+<figure class="align-default" id="ludwig-boltzmann">
+<img alt="_images/Boltzmann.jpg" src="_images/Boltzmann.jpg" />
+<figcaption>
+<p><span class="caption-number">Fig. 2 </span><span class="caption-text">Ludwig Boltzmann</span><a class="headerlink" href="#ludwig-boltzmann" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<p>So, what does this all mean? It means the seemingly random world of dice rolls shares an interesting connection with the microscopic world of atoms. Both are governed by the same underlying principle of probability, where randomness averages out over a large number of events. The next time you pick up some dice, remember, you’re holding a tiny model of the universe, where chance and probability shape reality in fascinating ways.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">My Code Universe</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-the-hidden-pattern-in-every-dice-roll">Part 1: The Hidden Pattern in Every Dice Roll</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-1-throwing-two-dice-10-times">Example 1: Throwing Two Dice 10 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-2-throwing-two-dice-500-times">Example 2: Throwing Two Dice 500 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-3-throwing-two-dice-100000-times">Example 3: Throwing Two Dice 100000 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-4-throwing-three-dice-100000-times">Example 4: Throwing Three Dice 100000 Times</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-5-throwing-four-dice-200000-times">Example 5: Throwing Four Dice 200000 Times</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-from-playful-rolls-to-universal-order">Part 2: From Playful Rolls to Universal Order</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Siavash Bakhtiarnia
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

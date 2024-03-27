@@ -23,7 +23,7 @@ This website and its content are distributed under the MIT License.
 
 **Contact**
 
-Feel free to reach out if you have any questions or suggestions! You can find me at [https/bakhtiarnia.com/](https/bakhtiarnia.com/) where you can use the contact form to reach out. I'll be sure to get in touch with you as soon as possible.
+Feel free to reach out if you have any questions or suggestions! You can find me at [https://bakhtiarnia.com/](https://bakhtiarnia.com/) where you can use the contact form to reach out. I'll be sure to get in touch with you as soon as possible.
 
 **Credits**
 
