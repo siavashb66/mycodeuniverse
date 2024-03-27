@@ -1,6 +1,0 @@
-# My Code Universe
-
-Imagine a world where the magic of movies helps us make real scientific discoveries. That's what happened with the film "Interstellar" directed by Christopher Nolan. The team, including a famous scientist named Kip Thorne, used computer simulations to create amazing scenes of black holes. But they did more than make a great movie – they helped us understand how gravity bends light. This was a big deal for science, and it all started with the special effects in a movie. Computer simulations are like virtual labs. Scientists use them to test ideas in ways that might be too risky or costly in real life. For example, they can design new materials or study the stars and the universe. The creation of the "Double Negative Gravitational Renderer," the program used for "Interstellar," is a testament to the power of computer simulations. It's not just about making things look real in movies; it's about discovering truths in our universe. This program didn't just give us stunning visuals; it provided scientists with a new way to visualize and understand the complex forces at work around black holes. It shows us that computer simulations are more than just tools; they're gateways to unlocking the mysteries of science and the universe.
-
-```{tableofcontents}
-```
