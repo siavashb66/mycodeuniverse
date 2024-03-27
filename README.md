@@ -1,31 +1,30 @@
-# My Book
+<a href="https://mycodeuniverse.netlify.app/intro.html"><img src="https://media.istockphoto.com/id/486084088/photo/gargantua-galaxy-design.jpg?s=1024x1024&w=is&k=20&c=MDCjZQBxjY7It9_Lv9UJB3JcNyMQPgDfp_V56EaeHkY=" alt="My Code Universe Logo" width="300"></a>
 
-Jupyter Book Website for my codes.
+## My Code Universe
 
-## Usage
+I'm a coding enthusiast, eager to learn and explore the vast world of programming. Witnessing how computer simulations in movies like "Interstellar" can unlock scientific truths is truly inspiring. This website is my way of taking those first steps into this exciting world. Here, I'll be documenting my projects, some small, some hopefully growing in complexity, as I experiment, learn, and contribute to the larger programming community. The true purpose of starting "My Code Universe" is to learn from others along the way. As I grow my abilities, I aim to expand this space and foster a welcoming community for all code enthusiasts.
 
-### Building the book
+**About the Projects**
 
-If you'd like to develop and/or build the My Book book, you should:
+This website showcases my hobby projects in various stages of development. Some projects might offer explanations or tutorials alongside the code, while others might focus more on the code itself. The code is primarily written in Python, but I'm always open to exploring new areas and tools.
 
-1. Clone this repository
-2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `mybook/` directory
-4. Run `jupyter-book clean mybook/` to remove any existing builds
-5. Run `jupyter-book build mybook/`
+**Projects**
 
-A fully-rendered HTML version of the book will be built in `mybook/_build/html/`.
+* **Dice Probability and Distribution of Sums:** This project simulates rolling dice and explores the probability of different outcomes and the distribution of the sums obtained.
+* **Line Fractal:** This project delves into creating a mesmerizing line fractal using code.
 
-### Hosting the book
+**Contributing**
 
-Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
+I am excited to learn from others and build a collaborative space! Feel free to contribute code, ideas, or tutorials by submitting a pull request on GitHub. 
 
-For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
+**License**
 
-## Contributors
+This website and its content are distributed under the MIT License.
 
-We welcome and recognize all contributions. You can see a list of current contributors in the [contributors tab](https://github.com/siavashb66/mybook/graphs/contributors).
+**Contact**
 
-## Credits
+Feel free to reach out if you have any questions or suggestions! You can find me at [https/bakhtiarnia.com/](https/bakhtiarnia.com/) where you can use the contact form to reach out. I'll be sure to get in touch with you as soon as possible.
 
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book).
+**Credits**
+
+This project is created using the open source Jupyter Book project: [https://jupyterbook.org/](https://jupyterbook.org/)
