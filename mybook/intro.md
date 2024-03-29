@@ -11,7 +11,14 @@ Imagine a world where the magic of movies helps us make real scientific discover
 
 ## About Me
 
-I'm a coding enthusiast, eager to learn and explore the vast world of programming. This website is my way of taking those first steps into this exciting world. Here, I'll be documenting my projects, some small, some hopefully growing in complexity, as I experiment, learn, and contribute to the larger programming community. The true purpose of starting "My Code Universe" is to learn from others along the way. As I grow my abilities, I aim to expand this space and foster a welcoming community for all code enthusiasts.
+I am a coding enthusiast with a background in material science and a PhD in nanotechnology, eager to learn and explore the vast world of programming. My interest in Python programming sparked from a curiosity to explore its possibilities, particularly for materials modeling, despite being an experimentalist working in a laboratory. However, computers serve as different sorts of labs where we can explore concepts in ways almost impossible or too costly in real life.
+
+What truly fascinates me about coding is the prospect of creating something tangible from mere characters in a text editor. Through Python, we can explore various computational setups and analyze data with newfound insight and efficiency.
+
+The true purpose of starting “My Code Universe” is to share my enthusiasm and to learn from others along the way. Here, I’ll document my projects, ranging from small experiments to hopefully more complex ones, as I enhance my abilities. I aspire to expand this space and connect with fellow enthusiasts and learners who share my passion.
+
+Together, let's explore the endless possibilities of programming and simulations, humbly learning from each other and embracing the joy of discovery in every line of code.
+
 
 ## About the Project
 
