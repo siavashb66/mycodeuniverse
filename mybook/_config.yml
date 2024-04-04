@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title                       : Siavash Bakhtiarnia  # The title of the book. Will be placed in the left navbar.
+title                       : My Code Universe  # The title of the book. Will be placed in the left navbar.
 author                      : Siavash Bakhtiarnia  # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
 logo                        : logo.png  # A path to the book logo
@@ -35,9 +35,14 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
-  favicon                   : "favicon.ico"
   use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
   use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
-  extra_footer              : ""  # Will be displayed underneath the footer.
   google_analytics_id       : ""  # A GA id that can be used to track book views.
   home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  extra_footer: |
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://mycodeuniverse.com">My Code Universe</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://bakhtiarnia.com">Siavash Bakhtiarnia</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+
+sphinx:
+  config:
+    html_extra_path: ['assets']
+    html_show_copyright: false

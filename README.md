@@ -1,4 +1,4 @@
-<a href="https://mycodeuniverse.netlify.app/intro.html"><img src="https://bakhtiarnia.com/assets/images/simul.webp" alt="My Code Universe Logo" width="800"></a>
+<a href="https://mycodeuniverse.com"><img src="https://bakhtiarnia.com/assets/images/simul.webp" alt="Gargantua Blackhole" width="800"></a>
 
 ## My Code Universe
 
@@ -19,7 +19,7 @@ I am excited to learn from others and build a collaborative space! Feel free to 
 
 **License**
 
-This website and its content are distributed under the MIT License.
+[My Code Universe](https://mycodeuniverse.com) © 2024 by Siavash Bakhtiarnia is licensed under Attribution 4.0 International
 
 **Contact**
 
