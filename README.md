@@ -1,4 +1,4 @@
-<a href="https://mycodeuniverse.netlify.app/intro.html"><img src="https://media.istockphoto.com/id/486084088/photo/gargantua-galaxy-design.jpg?s=1024x1024&w=is&k=20&c=MDCjZQBxjY7It9_Lv9UJB3JcNyMQPgDfp_V56EaeHkY=" alt="My Code Universe Logo" width="300"></a>
+<a href="https://mycodeuniverse.netlify.app/intro.html"><img src="https://bakhtiarnia.com/assets/images/simul.webp" alt="My Code Universe Logo" width="800"></a>
 
 ## My Code Universe
 
