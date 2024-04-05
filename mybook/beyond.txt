@@ -1,6 +1,7 @@
 <meta name="description" content="Unveil the surprising patterns in dice rolls & their connection to the universe! (Part 1) Explore randomness & order with Python. Part 2: Dive into the atomic world! A mind-blowing journey starts here!">
 <meta name="author" content="Siavash Bakhtiarnia, Ph.D.">
 <meta name="keywords" content="python, universe, dice rolls, data science, visualization">
+<link rel="canonical" href="https://mycodeuniverse.com/beyond">
 <meta name="robots" content="index, follow">
 
 <meta property="og:title" content="Beyond Chance – Siavash Bakhtiarnia, Ph.D.">

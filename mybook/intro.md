@@ -34,7 +34,7 @@ Feel free to reach out if you have any questions or suggestions! You can find me
 
 ### License
 
-This website and its content are distributed under the MIT License.
+[My Code Universe](https://mycodeuniverse.com) © 2024 by Siavash Bakhtiarnia is licensed under Attribution 4.0 International
 
 ### Credits
 

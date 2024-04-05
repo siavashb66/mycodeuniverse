@@ -1,4 +1,4 @@
-<a href="https://mycodeuniverse.com"><img src="https://bakhtiarnia.com/assets/images/simul.webp" alt="Gargantua Blackhole" width="800"></a>
+<a href="https://mycodeuniverse.com"><img src="https://bakhtiarnia.com/assets/images/simul.jpg" alt="Gargantua Blackhole" width="800"></a>
 
 ## My Code Universe
 
@@ -20,6 +20,8 @@ I am excited to learn from others and build a collaborative space! Feel free to 
 **License**
 
 [My Code Universe](https://mycodeuniverse.com) © 2024 by Siavash Bakhtiarnia is licensed under Attribution 4.0 International
+
+[![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **Contact**
 
