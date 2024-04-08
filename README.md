@@ -1,32 +1,35 @@
-<a href="https://mycodeuniverse.com"><img src="https://bakhtiarnia.com/assets/images/simul.jpg" alt="Gargantua Blackhole" width="800"></a>
+[![https://mycodeuniverse.com](https://mycodeuniverse.com/logo_RM.svg 'My Code Universe')](https://mycodeuniverse.com/)
 
-## My Code Universe
+# My Code Universe
 
-I'm a coding enthusiast, eager to learn and explore the vast world of programming. Witnessing how computer simulations in movies like "Interstellar" can unlock scientific truths is truly inspiring. This website is my way of taking those first steps into this exciting world. Here, I'll be documenting my projects, some small, some hopefully growing in complexity, as I experiment, learn, and contribute to the larger programming community. The true purpose of starting "My Code Universe" is to learn from others along the way. As I grow my abilities, I aim to expand this space and foster a welcoming community for all code enthusiasts.
+Welcome to **My Code Universe**—a space dedicated to my personal coding projects and explorations in the realm of programming. Here, I share my passion for creating, learning, and experimenting with code.
 
-**About the Projects**
+## About Me
 
-This website showcases my hobby projects in various stages of development. Some projects might offer explanations or tutorials alongside the code, while others might focus more on the code itself. The code is primarily written in Python, but I'm always open to exploring new areas and tools.
+I'm Siavash Bakhtiarnia, a coding enthusiast with a background in material science and a Ph.D. in Nanotechnology. This website is where I share my explorations in the universe of code, documenting my hobby projects and the lessons learned along the way.
 
-**Projects**
+## Projects
 
-* **Dice Probability and Distribution of Sums:** This project simulates rolling dice and explores the probability of different outcomes and the distribution of the sums obtained.
-* **Line Fractal:** This project delves into creating a mesmerizing line fractal using code.
+Dive into my universe of code, where each project is a new adventure:
 
-**Contributing**
+- **Dice Probability Simulator:** A Python-based tool that visualizes the probabilities and distributions of dice rolls.
+- **Line Fractal Generator:** An exploration into the beauty of fractals, rendered through code.
 
-I am excited to learn from others and build a collaborative space! Feel free to contribute code, ideas, or tutorials by submitting a pull request on GitHub. 
+## Contributing
 
-**License**
+Join me in this coding playground! If you have ideas, feedback, or code to share, feel free to fork the repository, make your contributions, and submit a pull request.
 
-[My Code Universe](https://mycodeuniverse.com) © 2024 by Siavash Bakhtiarnia is licensed under Attribution 4.0 International
+## License
+
+All content on My Code Universe is licensed under the Creative Common Attribution 4.0 International, encouraging adaptation and sharing with proper attribution.
 
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-**Contact**
+## Contact
 
-Feel free to reach out if you have any questions or suggestions! You can find me at [https://bakhtiarnia.com/](https://bakhtiarnia.com/) where you can use the contact form to reach out. I'll be sure to get in touch with you as soon as possible.
+Questions or suggestions? I'm all ears. Reach out through the [contact form](https://bakhtiarnia.com/html/form) on my personal site: [https://bakhtiarnia.com/](https://bakhtiarnia.com/) and I'll be sure to get in touch with you as soon as possible.
 
-**Credits**
+## Acknowledgments
 
-This project is created using the open source Jupyter Book project: [https://jupyterbook.org/](https://jupyterbook.org/)
+Special thanks to the Jupyter Book project: [https://jupyterbook.org/](https://jupyterbook.org/)
+ for their fantastic platform that helps bring these projects to life.

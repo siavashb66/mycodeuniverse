@@ -1,13 +1,13 @@
 <meta name="description" content="Join My Code Universe - A coding enthusiast's journey of exploration, learning, and community building. Documenting projects, big and small, to inspire and be inspired by fellow programmers.">
 <meta name="author" content="Siavash Bakhtiarnia, Ph.D.">
 <meta name="keywords" content="data science, python, programming, visualization, jupyter notebook">
-<link rel="canonical" href="https://mycodeuniverse.com/intro">
+<link rel="canonical" href="https://mycodeuniverse.com/">
 <meta name="robots" content="index, follow">
 
 <meta property="og:title" content="Siavash Bakhtiarnia – My Code Universe">
 <meta property="og:description" content="Join My Code Universe - A coding enthusiast's journey of exploration, learning, and community building. Documenting projects, big and small, to inspire and be inspired by fellow programmers.">
 <meta property="og:image" content="/_static/ogimage/ogimage.jpg">
-<meta property="og:url" content="https://mycodeuniverse.com/intro">
+<meta property="og:url" content="https://mycodeuniverse.com/">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
