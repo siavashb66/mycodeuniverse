@@ -1,12 +1,12 @@
-[![https://mycodeuniverse.com](https://mycodeuniverse.com/logo_RM.svg 'My Code Universe')](https://mycodeuniverse.com/)
-
 # My Code Universe
+
+[![https://mycodeuniverse.com](https://mycodeuniverse.com/logo_RM.svg 'My Code Universe')](https://mycodeuniverse.com/)
 
 Welcome to **My Code Universe**—a space dedicated to my personal coding projects and explorations in the realm of programming. Here, I share my passion for creating, learning, and experimenting with code.
 
 ## About Me
 
-I'm Siavash Bakhtiarnia, a coding enthusiast with a background in material science and a Ph.D. in Nanotechnology. This website is where I share my explorations in the universe of code, documenting my hobby projects and the lessons learned along the way.
+I'm [Siavash Bakhtiarnia](https://bakhtiarnia.com), a coding enthusiast with a background in material science and a Ph.D. in Nanotechnology. This website is where I share my explorations in the universe of code, documenting my hobby projects and the lessons learned along the way.
 
 ## Projects
 
@@ -27,7 +27,7 @@ All content on My Code Universe is licensed under the Creative Common Attributio
 
 ## Contact
 
-Questions or suggestions? I'm all ears. Reach out through the [contact form](https://bakhtiarnia.com/html/form) on my personal site: [https://bakhtiarnia.com/](https://bakhtiarnia.com/) and I'll be sure to get in touch with you as soon as possible.
+Questions or suggestions? I'm all ears. Reach out through the [contact form](https://bakhtiarnia.com/en/form) on my personal site: [https://bakhtiarnia.com/](https://bakhtiarnia.com/) and I'll be sure to get in touch with you as soon as possible.
 
 ## Acknowledgments
 
