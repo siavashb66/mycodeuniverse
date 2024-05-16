@@ -13,7 +13,7 @@ I'm [Siavash Bakhtiarnia](https://bakhtiarnia.com), a coding enthusiast with a b
 Dive into my universe of code, where each project is a new adventure:
 
 - **Dice Probability Simulator:** A Python-based tool that visualizes the probabilities and distributions of dice rolls.
-- **Line Fractal Generator:** An exploration into the beauty of fractals, rendered through code.
+- **Fractal Generator:** An exploration into the beauty of fractals, rendered through code.
 
 ## Contributing
 
@@ -31,5 +31,4 @@ Questions or suggestions? I'm all ears. Reach out through the [contact form](htt
 
 ## Acknowledgments
 
-Special thanks to the Jupyter Book project: [https://jupyterbook.org/](https://jupyterbook.org/)
- for their fantastic platform that helps bring these projects to life.
+Special thanks to the [Jupyter Book project](https://jupyterbook.org/) for their fantastic platform that helps bring these projects to life.
