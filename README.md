@@ -4,6 +4,8 @@
 
 Welcome to **My Code Universe**—a space dedicated to my personal coding projects and explorations in the realm of programming. Here, I share my passion for creating, learning, and experimenting with code.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/95ec0815-8b3d-48c0-978a-274dde54d66d/deploy-status)](https://app.netlify.com/sites/mycodeuniverse/deploys)
+
 ## About Me
 
 I'm [Siavash Bakhtiarnia](https://bakhtiarnia.com), a coding enthusiast with a background in material science and a Ph.D. in Nanotechnology. This website is where I share my explorations in the universe of code, documenting my hobby projects and the lessons learned along the way.
