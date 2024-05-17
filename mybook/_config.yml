@@ -6,7 +6,7 @@
 #######################################################################################
 # Book settings
 title                       : My Code Universe  # The title of the book. Will be placed in the left navbar.
-author                      : Siavash Bakhtiarnia  # The author of the book
+author                      : Siavash Bakhtiarnia # The author of the book
 copyright                   : "2024"  # Copyright year to be placed in the footer
 logo                        : logo.svg  # A path to the book logo
 # Force re-execution of notebooks on each build.
