@@ -14,8 +14,12 @@ I'm [Siavash Bakhtiarnia](https://bakhtiarnia.com), a coding enthusiast with a b
 
 Dive into my universe of code, where each project is a new adventure:
 
-- **Dice Probability Simulator:** A Python-based tool that visualizes the probabilities and distributions of dice rolls.
-- **Fractal Generator:** An exploration into the beauty of fractals, rendered through code.
+- **Beyond Chance:** An engaging story that connects the probabilities and distributions of dice rolls to microscopic world of atoms.
+- **Snowflake Secret:** An exploration into the beauty of fractals, rendered through code, and beautiful visualization of Koch snowflake and Koch anti-snowflake.
+
+### You can visit jupyter notebooks in an interactive environment
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/siavashb66/mycodeuniverse/master?labpath=mybook)
 
 ## Contributing
 
